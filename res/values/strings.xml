@@ -14,6 +14,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+
     <!-- Strings for the smart DDS switch toggle in developer options -->
     <string name="smart_dds_switch">Smart DDS switch</string>
     <string name="smart_dds_switch_wait_summary">Please wait...</string>
