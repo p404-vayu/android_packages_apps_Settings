@@ -73,6 +73,12 @@
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             android:summary="@string/lockscreen_double_line_clock_summary"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
+
+        <com.p404.support.preferences.SecureSettingSwitchPreference
+            android:key="power_menu_hide_on_secure"
+            android:title="@string/power_menu_hide_on_secure_title"
+            android:summary="@string/power_menu_hide_on_secure_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
