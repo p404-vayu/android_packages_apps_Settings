@@ -72,6 +72,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @VisibleForTesting
     static final String KEY_BATTERY_USAGE = "battery_usage_summary";
 
+    private static final String KEY_BATTERY_TEMP = "battery_temp";
     private static final String KEY_BATTERY_HEALTH = "battery_health";
 
     @VisibleForTesting
@@ -89,6 +90,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     LayoutPreference mBatteryLayoutPref;
     @VisibleForTesting
     BatteryInfo mBatteryInfo;
+    PowerGaugePreference mBatteryTempPref;
     @VisibleForTesting
     PowerGaugePreference mBatteryHealthPref;
 
@@ -311,6 +313,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         } else {
             mNeedUpdateBatteryTip = true;
         }
+        mBatteryTempPref.setSubtitle(BatteryInfo.batteryTemp+" "+Character.toString ((char) 176) + "C");
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
         if (mBatteryHealthPref != null)
@@ -356,6 +359,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
                         getString(R.string.advanced_battery_preference_summary_with_hours) :
                         getString(R.string.advanced_battery_preference_summary));
 
+        mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mHelpPreference = findPreference(KEY_BATTERY_ERROR);
         mHelpPreference.setVisible(false);
     }
