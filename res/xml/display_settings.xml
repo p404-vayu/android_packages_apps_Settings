@@ -159,6 +159,13 @@
             android:title="@string/screensaver_settings_title"
             android:fragment="com.android.settings.dream.DreamSettings"/>
 
+        <com.p404.support.preferences.SystemSettingMasterSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.android.settings.p404.fragments.NetworkTraffic"
+            android:defaultValue="false" />
+        
         <SwitchPreference
             android:key="camera_gesture"
             android:title="@string/camera_gesture_title"
