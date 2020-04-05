@@ -73,4 +73,8 @@
     <string name="theme_customization_lock_clock_title">Clock font style</string>
     <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
     <string name="lockscreen_clock_font_options_title">Lockscreen Clock Font</string>
+
+    <!-- Low battery light -->
+    <string name="low_battery_light_title">Battery light</string>
+    <string name="low_battery_light_summary">Blink LED when battery is low</string>
 </resources>
