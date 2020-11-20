@@ -30,4 +30,9 @@
     
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Value</string>
+    <string name="seek_value_edit_label">Set value</string>
 </resources>
