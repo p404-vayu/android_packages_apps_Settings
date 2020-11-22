@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2020-2021 Project 404
+<!-- Copyright 2020-2022 Project 404
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -85,4 +86,7 @@
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Quick torch</string>
     <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+ 
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Set Screen refresh rate</string>
 </resources>
