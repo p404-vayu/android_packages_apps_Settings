@@ -38,4 +38,9 @@
 
     <!-- Whether to show min / max refresh rate preference in display settings -->
     <bool name="config_show_refresh_rate_controls">false</bool>
+
+    <!-- Battery health -->
+    <string name="config_batteryHealthNode"></string>
+    <string name="config_batteryRemainingCapacityNode"></string>
+    <string name="config_batteryDesignCapacityNode"></string>
 </resources>
