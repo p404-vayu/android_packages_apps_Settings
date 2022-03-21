@@ -252,6 +252,13 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
+    <!-- Live Volume Steps -->
+    <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.android.settings.sound.VolumeStepsFragment" />
+
     <Preference
         android:key="sound_work_settings"
         android:title="@string/sound_work_settings"
