@@ -91,4 +91,14 @@
         android:order="20"
         settings:controller="com.android.settings.applications.SpecialAppAccessPreferenceController"/>
 
+    <PreferenceCategory
+        android:title="@string/app_info_misc">
+
+        <com.p404.support.preferences.GlobalSettingSwitchPreference
+            android:key="pm_downgrade_allowed"
+            android:title="@string/app_downgrade_title"
+            android:summary="@string/app_downgrade_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>
