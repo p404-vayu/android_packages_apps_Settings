@@ -175,4 +175,23 @@
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="reticker_category"
+        android:title="@string/reticker_catg_title">
+
+    <com.p404.support.preferences.SystemSettingSwitchPreference
+            android:key="reticker_status"
+            android:title="@string/reticker_title"
+            android:summary="@string/reticker_summary"
+            android:defaultValue="false" />
+
+    <com.p404.support.preferences.SystemSettingSwitchPreference
+            android:key="reticker_colored"
+            android:title="@string/reticker_colored_title"
+            android:summary="@string/reticker_colored_summary"
+            android:dependency="reticker_status"
+            android:defaultValue="false" />
+    
+    </PreferenceCategory>
 </PreferenceScreen>
