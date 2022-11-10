@@ -131,6 +131,11 @@
             android:title="@string/display_white_balance_title"
             android:summary="@string/display_white_balance_summary"
             settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController"/>
+        
+        <SwitchPreference
+            android:key="tap_to_wake"
+            android:title="@string/tap_to_wake"
+            android:summary="@string/tap_to_wake_summary"/>
 
         <ListPreference
     	    android:key="min_refresh_rate"
@@ -153,14 +158,6 @@
             android:key="screensaver"
             android:title="@string/screensaver_settings_title"
             android:fragment="com.android.settings.dream.DreamSettings"/>
- 
-        <!-- Statusbar Icon Manager -->
-        <Preference
-            android:key="icon_manager"
-            android:title="@string/icon_manager_title"
-            android:summary="@string/icon_manager_summary">
-            <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
-        </Preference>
 
         <SwitchPreference
             android:key="camera_gesture"
@@ -171,16 +168,19 @@
             android:key="lift_to_wake"
             android:title="@string/lift_to_wake_title"/>
 
-        <SwitchPreference
-            android:key="tap_to_wake"
-            android:title="@string/tap_to_wake"
-            android:summary="@string/tap_to_wake_summary"/>
-
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
             android:summary="@string/summary_placeholder"/>
-
+ 
+        <!-- Statusbar Icon Manager -->
+        <Preference
+            android:key="icon_manager"
+            android:title="@string/icon_manager_title"
+            android:summary="@string/icon_manager_summary">
+            <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+        </Preference>
+        
         <Preference
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
