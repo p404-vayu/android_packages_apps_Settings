@@ -101,6 +101,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "SettingsLibMainSwitchPreference",
+        "faceunlock_framework",
     ],
 
     libs: [
