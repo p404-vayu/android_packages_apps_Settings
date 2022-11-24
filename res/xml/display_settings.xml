@@ -137,6 +137,13 @@
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary"/>
 
+        <com.p404.support.preferences.SystemSettingMasterSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.android.settings.p404.fragments.NetworkTraffic"
+            android:defaultValue="false" />
+        
         <ListPreference
     	    android:key="min_refresh_rate"
             android:title="@string/min_refresh_rate_title"
@@ -158,13 +165,6 @@
             android:key="screensaver"
             android:title="@string/screensaver_settings_title"
             android:fragment="com.android.settings.dream.DreamSettings"/>
-
-        <com.p404.support.preferences.SystemSettingMasterSwitchPreference
-            android:key="network_traffic_state"
-            android:title="@string/network_traffic_state_title"
-            android:summary="@string/network_traffic_state_summary"
-            android:fragment="com.android.settings.p404.fragments.NetworkTraffic"
-            android:defaultValue="false" />
         
         <SwitchPreference
             android:key="camera_gesture"
