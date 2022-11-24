@@ -38,10 +38,10 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.p404.support.preferences.SystemSettingMasterSwitchPreference;
 
-public class DisplaySettings extends SettingsPreferenceFragment
+public class NetworkSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
-    private static final String TAG = "Display Settings";
+    private static final String TAG = "Network Settings";
     private static final String KEY_NETWORK_TRAFFIC = "network_traffic_state";
 
     private SystemSettingMasterSwitchPreference mNetworkTraffic;
@@ -49,7 +49,8 @@ public class DisplaySettings extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.display_settings);
+        addPreferencesFromResource(R.xml.network_and_internet);
+        addPreferencesFromResource(R.xml.network_provider_internet);
         PreferenceScreen prefSet = getPreferenceScreen();
         final ContentResolver resolver = getActivity().getContentResolver();
 
