@@ -139,11 +139,17 @@
             android:order="10"
             android:defaultValue="false" />
         
-        <com.p404.support.preference.SystemSettingSwitchPreference
+        <com.p404.support.preferences.SystemSettingSwitchPreference
             android:dependency="reticker_status"
             android:key="new_reticker"
             android:title="@string/new_reticker_title"
             android:summary="@string/new_reticker_summary"
+            android:defaultValue="false" />
+        
+        <com.p404.support.preferences.SystemSettingSwitchPreference
+            android:dependency="reticker_status"
+            android:key="new_reticker_animation"
+            android:title="@string/new_reticker_animation_title"
             android:defaultValue="false" />
         
         <com.android.settingslib.RestrictedPreference
