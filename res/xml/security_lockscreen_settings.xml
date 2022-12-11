@@ -169,7 +169,7 @@
             android:title="@string/show_lockscreen_media_art_title"
             android:defaultValue="true" />
 
-        <com.p404.support.preferences.CustomSystemSeekBarPreference
+        <com.p404.support.preferences.SystemSettingSeekBarPreference
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
             android:dependency="show_lockscreen_media_art"
