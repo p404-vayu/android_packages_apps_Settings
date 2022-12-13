@@ -65,6 +65,7 @@
     <string name="lockscreen_media_art_options_title">Lockscreen media art</string>
 
     <!-- reTicker -->
+    <string name="reticker_catg_title">Reticker</string>
     <string name="reticker_title">reTicker</string>
     <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
     <string name="reticker_colored_title">Use app colored background</string>
