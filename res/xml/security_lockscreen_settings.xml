@@ -139,5 +139,15 @@
             settings:searchable="false"/>
 
     </PreferenceCategory>
-
+   
+    <PreferenceCategory
+        android:key="lockscreen_clock_font_options"
+        android:title="@string/lockscreen_clock_font_options_title"
+        android:order="1003">
+    <Preference
+        android:key="android.theme.customization.lockscreen_clock_font"
+        android:title="@string/theme_customization_lock_clock_title"
+        android:summary="@string/theme_customization_lock_clock_summary"
+        android:fragment="com.android.settings.p404.LockClockFontsPicker"/>
+    </PreferenceCategory>
 </PreferenceScreen>
