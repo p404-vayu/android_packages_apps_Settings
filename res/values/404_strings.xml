@@ -196,4 +196,9 @@
 
     <!-- 404 Package version -->
     <string name="p404_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+
+    <!-- Lockscreen Clock font -->
+    <string name="theme_customization_lock_clock_title">Clock font style</string>
+    <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
+    <string name="lockscreen_clock_font_options_title">Lockscreen Clock Font</string>
 </resources>
