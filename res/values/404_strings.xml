@@ -188,4 +188,16 @@
     <!-- Low battery light -->
     <string name="low_battery_light_title">Low battery light</string>
     <string name="low_battery_light_summary">Blink LED when battery is low</string>
+
+    <!-- Package group title -->
+    <string name="package_details_group_title">Package details</string>
+
+    <!-- Package version -->
+    <string name="package_version">Package version</string>
+
+    <!-- Package details -->
+    <string name="package_name">Package name</string>
+
+    <!-- 404 Package version -->
+    <string name="p404_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
 </resources>
