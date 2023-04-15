@@ -127,8 +127,10 @@
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
 
-    <!-- Lockscreen Clock font -->
-    <string name="theme_customization_lock_clock_title">Clock font style</string>
+    <!-- Lockscreen Customizations -->
+    <string name="perf_customization_title">Lockscreen Customizations</string>
     <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
     <string name="lockscreen_clock_font_options_title">Lockscreen Clock Font</string>
+    <string name="theme_customization_date_font_title">Lockscreen Date Font style</string>
+    <string name="theme_customization_date_font_summary">Set lockscreen date font style</string>
 </resources>
