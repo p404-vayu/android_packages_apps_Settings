@@ -152,4 +152,8 @@
     <string name="battery_stats_reset">Reset stats?</string>
     <string name="battery_stats_message">Battery usage data will be lost</string>
     <string name="battery_stats_clear" translatable="false">@string/proxy_clear_text</string>
+    
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Colored icons</string>
+    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in status bar</string>
 </resources>
