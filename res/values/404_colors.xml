@@ -13,10 +13,6 @@
 -->
 
 <resources>
-
-    <!-- DashBoard 404 Colors -->
-    <color name="dashboard_bg_404">@android:color/system_accent1_600</color>
-
      <!-- Customizations -->
     <color name="option_border_default">#5f6368</color>
 </resources> 
