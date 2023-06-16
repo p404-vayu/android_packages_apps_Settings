@@ -162,4 +162,8 @@
     <string name="network_options_title">Options</string>
     <string name="network_traffic_autohide_title">Hide network traffic indicator is inactive</string>
     <string name="network_traffic_autohide_summary">Hide when network traffic indicator is below 1 KB/s</string>
+
+    <!-- Battery Info -->
+    <string name="title_battery_info_frag">Battery Info</string>
+    <string name="summary_battery_info_frag">Get Battery Stats</string>
 </resources>

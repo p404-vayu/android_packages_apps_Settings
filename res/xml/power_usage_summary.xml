@@ -63,6 +63,12 @@
         android:title="@string/battery_percentage"
         android:summary="@string/battery_percentage_description"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
+   
+    <Preference
+        android:key="battery_health"
+        android:summary="@string/summary_battery_info_frag"
+        android:title="@string/title_battery_info_frag"
+        android:fragment="com.android.settings.fuelgauge.BatteryHealthStatus"/>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
